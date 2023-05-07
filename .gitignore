@@ -1,0 +1,15 @@
+data/**
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+node_modules/
+# Backups
+*~
+
+# VSCode/macOS
+.vscode
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/**
