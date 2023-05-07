@@ -5,13 +5,19 @@ A data bot powered by ChatGPT / Langchain
 Make sure you have `OPENAI_API_KEY` set in your env as well as Transitmatters AWS Creds
 
 install deps
-`poetry install`
+```
+poetry install
+```
 
 install jupyterlab
-`pip install jupyterlab`
+```
+pip install jupyterlab
+```
 
 open jupyter notebook
-`jupyter-lab`
+```
+jupyter-lab
+```
 
 open `agent.ipynb` and run it!
 
