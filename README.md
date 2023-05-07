@@ -9,11 +9,6 @@ install deps
 poetry install
 ```
 
-generate data
-```
-poetry run python data.py
-```
-
 install jupyterlab
 ```
 pip install jupyterlab
@@ -27,4 +22,3 @@ jupyter-lab
 open `agent.ipynb` and run it!
 
 modify the questions to ask information about the traveltimes / dwells data.
-
