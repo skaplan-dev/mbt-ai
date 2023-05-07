@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mbt-ai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = {extras = ["agents"], version = "^0.0.161"}
+openai = "^0.27.6"
+requests = "^2.30.0"
+pandas = "^2.0.1"
+boto3 = "^1.26.129"
+tabulate = "^0.9.0"
+chromadb = "^0.3.21"
+tiktoken = "^0.3.3"
+pinecone-client = "^2.2.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
